@@ -1,0 +1,90 @@
+/* Импорт шрифтов */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700&family=Outfit:wght@600&display=swap');
+
+/* При фокусе или нажатии на инпут */
+.ant-input:focus, 
+.ant-input:active {
+  border-color: #925EE1;
+  box-shadow: 0 0 0 2px rgba(146, 94, 225, 0.2);
+}
+
+/* Стиль кнопки */
+.ant-btn-primary {
+  background-color: #925EE1;
+  border-color: #925EE1;
+  color: #fff;
+}
+
+/* Стиль при наведении на кнопку */
+.ant-btn-primary:active {
+  background-color: #8a4bd3;
+  border-color: #8a4bd3;
+  color: #fff;
+}
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  background-color: #8A4BD3 !important;
+  border-color: #8A4BD3 !important;
+  box-shadow: 0 0 0 2px rgba(146, 94, 225, 0.2) !important;
+}
+
+/* Стиль вторичной кнопки */
+.ant-btn-secondary {
+  background-color: #f0f0f0;
+  border-color: #d9d9d9;
+  color: #333;
+}
+
+/* Стиль при наведении на вторичную кнопку */
+.ant-btn-secondary:hover, 
+.ant-btn-secondary:focus, 
+.ant-btn-secondary:active {
+  background-color: #925EE1;
+  border-color: #925EE1;
+  color: #fff;
+}
+
+/* Стиль выделенного элемента */
+.active {
+  background-color: #925EE1;
+  box-shadow: 0 0 0 2px rgba(146, 94, 225, 0.2);
+  color: #fff;
+}
+
+/* Стиль фильтров при наведении на них */
+.filter-button:hover, 
+.filter-button:focus, 
+.filter-button:active {
+  background-color: #8a4bd3;
+  box-shadow: 0 0 0 2px rgba(146, 94, 225, 0.2);
+  color: #fff;
+}
+
+
+.btn-star,
+.btn-trash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+
+/* Стиль инпута при наведении */
+.ant-input:hover,
+.ant-input:focus {
+  border-color: #925EE1 !important;
+}
+
+/* Стиль кнопки удаления */
+.btn-trash {
+  color: #925EE1 !important;
+}
+
+/* Стиль кнопки выделения при наведении */
+.btn-star:hover,
+.btn-trash:hover {
+  color: #925ee1 !important;
+}
